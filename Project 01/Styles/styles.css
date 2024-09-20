@@ -1,6 +1,9 @@
+
+
+
 /* Main area > header banner */
 .main-banner {
-    height: 600px;
+    height: 400px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.25),
             rgba(255, 255, 255, 0.25)),
     url("../Images/Vegetable-garden01.jpg");
@@ -9,4 +12,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main-banner-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: calc(2rem + 2vw);
+    letter-spacing: 4px;
+    text-align: left;
+    font-family: aton;
+    
 }
