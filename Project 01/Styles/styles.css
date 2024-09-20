@@ -31,3 +31,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+.tagline {
+    font-size: calc(1rem + 1vw);
+    font-weight: 300;
+    color: rgb(150, 150, 150);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
