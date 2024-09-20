@@ -1,0 +1,12 @@
+/* Main area > header banner */
+.main-banner {
+    height: 600px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25),
+            rgba(255, 255, 255, 0.25)),
+    url("../Images/Vegetable-garden01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
