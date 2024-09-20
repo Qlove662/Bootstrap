@@ -55,7 +55,7 @@
                   <label for="email-address">Email Address</label>
                   <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
                   <label for="message">Message</label>
-                  <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                  <textarea rows="5" name="message" id="message" placeholder="type message" reqired=""></textarea>
                   <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                 </fieldset>
                 <input type="submit" value="Submit">
@@ -76,8 +76,8 @@
                 width: 100%;
                 padding: 0;
                 margin: 0;
-                -webkit-appearance: none;
-                -moz-appearance: none;
+                webkit-appearance: none;
+                moz-appearance: none;
               }
               #fs-frm label,
               #fs-frm legend,
@@ -102,7 +102,7 @@
               #fs-frm input:focus,
               #fs-frm select:focus,
               #fs-frm textarea:focus {
-                background-color: white;
+                background-color: rgb(244, 238, 238);
                 outline-style: solid;
                 outline-width: thin;
                 outline-color: gray;
@@ -168,7 +168,9 @@
               }
               </style>
         </section>
+        <div class="container-fluid"></div>
+            <img class="w-100" src="./Images/contact-background.jpg" alt="Salad">
+        </div>
     </main>
 </body>
-
 </html>

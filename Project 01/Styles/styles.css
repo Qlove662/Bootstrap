@@ -68,7 +68,17 @@
     background-color: rgb(203, 137, 39);
   }
 .my-first-carousel {
-    width: 100px;
+    width: 500px;
     margin: 0 auto;
 }
-  
+.fs-frm {
+    height: 400px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25),
+            rgba(255, 255, 255, 0.25)),
+    url("../Images/contact-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
