@@ -1,3 +1,4 @@
+Quintin Love
 # Food Blogger/ Chef website
 
 This website is about about a hypothetical Food Blogger.
